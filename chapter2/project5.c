@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(int argc, char **argv)
+{
+	int x;
+	printf("Enter a value for f(x) = 3x^5 + 2x^4 - 5x^3 - x^2 + 7x + 6: ");
+	scanf("%d", &x);
+	
+	int fx = 3*(x*x*x*x*x) + 2*(x*x*x*x) - 5*(x*x*x) - x*x + 7*x + 6;
+	
+	printf("The value is %d", fx);
+	
+	
+	
+	return 0;
+}
+
